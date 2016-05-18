@@ -1,0 +1,28 @@
+<?php
+class balita {
+	private $nama;
+	private $umur;
+	
+	function __construct($nama, $umur){
+		$this -> nama = $nama;
+		$this -> umur = $umur;
+		}
+		
+		function tambah_umur($tambah) {
+			$this-> umur += $tambah;
+			}
+		
+		function salam() {
+			echo "hai, perkenalkan, namaku : " . $this->nama . ", umurku : " . $this->umur . " tahun. <br>"; 
+			}
+		function salam_plus($tambahan) {
+			$this->tambah_umur($tambahan);
+			echo "hai, perkenalkan, namaku : " . $this->nama . ", "
+			. $tambahan . " tahun lagi umurku : " . $this->umur . " tahun <br>";
+			}
+	}
+$tatan = new balita("tatan", 2);
+$tatan-> salam ();
+$tatan-> salam_plus (5);	
+
+?>

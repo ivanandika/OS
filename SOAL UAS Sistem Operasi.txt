@@ -1,0 +1,35 @@
+Membuat Aplikasi shell 
+
+Jalan Tol
+Pintu masuk : Malang, Surabaya, Sidoarjo
+Pintu Keluar : Tidak boleh sama dengan pintu masuk
+-Jika Membayar Cash Pajak 0%
+-Jika Membayar Kredit Pajak 5%
+-input bayar
+-output : detail pilihan dan pembayaran
+
+Token Listrik
+-Jika Daya yang dipakai 900/1300/2200 KWH, maka biaya tetap
+ 10000/20000/30000
+-input bayar
+-output : detail pilihan dan pembayaran
+
+Rumah Makan
+-Menu makanan minimal 3, dengan harga disesuaikan
+-jika pembeli memesan lebih dari 3 porsi, maka diskon 20% dari total pembayaran
+-input bayar
+-output : detail pemesanan dan pembayaran
+
+Bioskop
+-List Film minimal 5, dengan harga disesuaikan
+-jika memesan tiket kurang dari 2, maka diskon 50% 
+-input bayar
+-output : detail pemesanan dan pembayaran
+
+Rental Mobil
+- Jumlah Mobil Min 5, dengan harga disesuaikan 
+  contoh Mobil A=300000/hari, Mobil B=250000/hari
+- jika meminjam lebih dari 3 hari, maka diskon 1 hari
+- jika bayar cash pajak 0% jika kredit 5%   
+-input bayar
+-output : detail pemesanan dan pembayaran 
